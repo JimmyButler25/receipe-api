@@ -20,3 +20,9 @@ Modify Django admin to list our custom user model.
 -Then run test
 
 
+Lecture 21
+Modify Django Admin to support changing user model
+-Add test to check that the change page renders correctly
+-We test that the status code that our client gives us is 200 which is okay
+-Move to admin.py file.
+-Run our tests 
