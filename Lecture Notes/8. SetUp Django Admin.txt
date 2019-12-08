@@ -14,3 +14,9 @@ self.assertContains django custom assertion to check that the response contains 
 NB:
 -Read the django Admin doc..
 
+Lecture 20
+Modify Django admin to list our custom user model.
+-Move to django admin.py file 
+-Then run test
+
+
