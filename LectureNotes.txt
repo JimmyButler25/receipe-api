@@ -20,3 +20,9 @@ case sensitive so should not be case sensitive when user logs into the system.
 -2nd we need to wrap the email in the models.py with the normalize email function.
 -Run the test again
 
+Lecture 17
+Add Validation for Email Field
+-Add validation to ensure email field is being provided when create_user function is called.
+-1st open up tests.
+-Here we want incase the user doesnot enter an email address, we raise a value error
+-Implement the feature in our models
