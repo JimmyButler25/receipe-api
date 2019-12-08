@@ -22,6 +22,17 @@ class UserAdmin(BaseUserAdmin):
         (_('Important dates'), {'fields': ('last_login',)})
     )
 
+    # from django admin doc
+    """ we need to customize filter to include our email, password """
+    add_fieldsets = [
+        # title of section
+        (None, {
+            'classes': ('wide', ),
+            'fields': ('email', 'password1', 'password2')
+        }),
+    ]
+    # run the test
+
 
 # register the user
 admin.site.register(models.User, UserAdmin)

@@ -39,3 +39,12 @@ class AdminSiteTests(TestCase):
         # test that the page renders okay
         self.assertEqual(response.status_code, 200)
     # test fails when we run it
+
+    def test_create_user_page(self):
+        """Test to check that the user page works"""
+        url = reverse('admin:core_user_add')
+        response = self.client.get(url)
+
+        self.assertEqual(response.status_code, 200)
+
+    # run the test bse we have not yet specified user name

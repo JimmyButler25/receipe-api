@@ -26,3 +26,11 @@ Modify Django Admin to support changing user model
 -We test that the status code that our client gives us is 200 which is okay
 -Move to admin.py file.
 -Run our tests 
+
+Lecture 22
+Modify Django admin to support creating users
+-We need to modify the add page for adding new users in django admin
+-Test admin.py
+
+NB:
+-Need to checkout django admin doc..
