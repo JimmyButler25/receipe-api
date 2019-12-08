@@ -1,0 +1,22 @@
+Section 7
+Configure Django Custom User Model:
+-Lecture 15
+Last lecture in the books.
+
+NB:
+-Read check_password()
+-Read get_user_model()
+-Read PermissionsMixin
+-Read AbstractBaseUser
+-Read BaseUserManager
+
+-Lecture 16
+Normalize email Addresses
+-Its important to normalize the email address because the second part of email address is case insensitive i.e @gmail.com should not be 
+case sensitive so should not be case sensitive when user logs into the system.
+-We need to automatically make last part of email lower case everytime a new user registers.
+-So we add this feature to our create User function.
+-1st implement the test model
+-2nd we need to wrap the email in the models.py with the normalize email function.
+-Run the test again
+
