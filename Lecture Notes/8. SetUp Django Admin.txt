@@ -1,0 +1,16 @@
+Setup Django Admin
+Lecture 19:
+Add tests for listing users in Django Admin
+-In the tests, add a test_admin.py file
+This is where we will store all our admin tests.
+-A setup function is a function that is created and run before every test is run
+1st we test that users are listed in our django admin because we need to customize our django admin to work with our custom user model.
+The default username for custom requires us to have a name so is the admin.
+-So we need to customize the admin to work with email created.
+self.assertContains django custom assertion to check that the response contains a certain item
+
+
+
+NB:
+-Read the django Admin doc..
+
