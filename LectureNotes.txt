@@ -26,3 +26,9 @@ Add Validation for Email Field
 -1st open up tests.
 -Here we want incase the user doesnot enter an email address, we raise a value error
 -Implement the feature in our models
+
+Lecture 18
+Add Support for Creating superusers
+-This is a function used by django CLI when creating new user
+-Implement a test to check whether user is created and and assigned is_staff and is_superuser.
+-SuperUser is part of PermissionsMixin
