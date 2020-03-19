@@ -6,7 +6,12 @@ services:
       context: .
     ports: 
       - "8000:8000"
+      # volume enables us to automatically update changes when we make changes to our code
+      # we don't need to automatically update docker
     volumes: 
       - ./app:/app
+      # this maps the app directory in our project to app directory in docker image
     command: >
       sh -c "python manage.py runserver 0.0.0.0:8000"
+
+      # to run docker in the terminal, type docker-compose build

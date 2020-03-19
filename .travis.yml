@@ -1,10 +1,12 @@
+# language we are going to use and the version
 language: python
 python:
-    - "3.6"
+    - "3.7"
 
 services:
     - docker
 
+    # script travis runs before executing any automation we will input 
 before_script: pip install docker-compose
 
 script:

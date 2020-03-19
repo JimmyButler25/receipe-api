@@ -1,0 +1,11 @@
+Lec 1:
+Writing Simple Unit test
+-Here we wrote the add function then performed the test
+-to perform unit test, the def function should start with test ie test_add_numbers
+-run the test command
+-----docker-compose run app sh -c "python manage.py test"
+
+Lec 2:
+Performing a test using Test Driven development
+-With test Driven development, you write the test then write the function there after
+-Here you know your tests work well

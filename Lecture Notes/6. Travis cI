@@ -1,0 +1,9 @@
+lec 1:
+Enable Tavis CI
+-Travis CI enables us to monitor our projects everytime we push to github
+-This tells us through an email
+-Create a CI account with github
+
+Lec 2:
+Create Travis-CI configuration file
+-create travis.yml file
